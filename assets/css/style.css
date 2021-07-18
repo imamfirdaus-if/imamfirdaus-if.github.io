@@ -659,7 +659,7 @@ p {
         top: 108%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
         z-index: 8;
         padding: 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -671,7 +671,7 @@ p {
         top: 108%;
         left: 0;
         width: 100%;
-        background-color: #f4f6f7;
+        background-color: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
         z-index: 8;
         padding: 10px 16px;
         -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
