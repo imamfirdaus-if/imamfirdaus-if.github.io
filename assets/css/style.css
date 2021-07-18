@@ -1359,11 +1359,43 @@ p {
   padding-bottom: 120px; }
   .about-area-2 .about-image {
     position: absolute;
-    width: 20%;
-    height: 50%;
+    width: 900px;
+    height: 400px;
     top: 0;
     right: 0; }
-    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .about-area-2 .about-image {
+        width: 34%; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .about-area-2 .about-image {
+        position: relative;
+        width: 720px;
+        margin: 0 auto; } }
+    @media (max-width: 767px) {
+      .about-area-2 .about-image {
+        position: relative;
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 16px;
+        margin: 0 auto; } }
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+      .about-area-2 .about-image {
+        position: relative;
+        width: 540px;
+        margin: 0 auto; } }
+    .about-area-2 .about-image .image {
+      max-width: 580px;
+      width: 100%; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .about-area-2 .about-image .image {
+          margin: 0 auto;
+          padding-top: 50px; } }
+      @media (max-width: 767px) {
+        .about-area-2 .about-image .image {
+          margin: 0 auto;
+          padding-top: 50px; } }
+      .about-area-2 .about-image .image img {
+        width: 100%; }
 
 .about-content-2 {
   position: relative;
