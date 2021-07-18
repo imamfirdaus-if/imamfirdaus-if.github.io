@@ -1360,7 +1360,7 @@ p {
   .about-area-2 .about-image {
     position: absolute;
     width: 20%;
-    height: 100%;
+    height: 50%;
     top: 0;
     right: 0; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
