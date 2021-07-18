@@ -1359,8 +1359,8 @@ p {
   padding-bottom: 120px; }
   .about-area-2 .about-image {
     position: absolute;
-    width: 900px;
-    height: 400px;
+    width: 500px;
+    height: 200px;
     top: 0;
     right: 0; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
